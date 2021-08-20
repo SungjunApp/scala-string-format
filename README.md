@@ -3,3 +3,12 @@
 A source code for the article "Scala: String Interpolation Performance" at [medium](https://medium.com/@dkomanov/scala-string-interpolation-performance-21dc85e83afd).
 
 Recent charts for the article is at https://dkomanov.github.io/scala-string-format/.
+
+# Spec
+- scala 2.11
+- java 1.8
+
+# Run 
+```aidl
+./jmh-run.sh
+```

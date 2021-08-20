@@ -17,8 +17,9 @@ Recent charts for the article is at https://dkomanov.github.io/scala-string-form
 - result can be found in /docs/jmh-result.json
 - viewer is located /docs/index.html that parses the data and display it on a chart
 #### Chart
-<img src="docs/img/graph.png width="100%">
+<img src="docs/img/graph.png" width="100%">
+
 #### Raw Data
-<img src="docs/img/raw_data.png width="100%">
+<img src="docs/img/raw_data.png" width="100%">
 
 

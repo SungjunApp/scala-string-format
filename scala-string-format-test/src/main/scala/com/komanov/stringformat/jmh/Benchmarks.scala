@@ -9,8 +9,8 @@ import org.openjdk.jmh.annotations._
 @BenchmarkMode(Array(Mode.AverageTime))
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @Fork(value = 2, jvmArgs = Array("-Xmx2G"))
-@Measurement(iterations = 7, time = 3, timeUnit = TimeUnit.SECONDS)
-@Warmup(iterations = 3, time = 3, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 7, time = 200, timeUnit = TimeUnit.MILLISECONDS)
+@Warmup(iterations = 3, time = 200, timeUnit = TimeUnit.MILLISECONDS)
 abstract class BenchmarkBase
 
 class ManyParamsBenchmark extends BenchmarkBase {

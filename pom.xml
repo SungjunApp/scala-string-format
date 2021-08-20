@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jmh.version>1.16</jmh.version>
+        <jmh.version>1.32</jmh.version>
         <jmh.generator>default</jmh.generator>
         <javac.target>1.8</javac.target>
         <uberjar.name>benchmarks</uberjar.name>
@@ -48,7 +48,7 @@
                         <compilerVersion>${javac.target}</compilerVersion>
                         <source>${javac.target}</source>
                         <target>${javac.target}</target>
-<!--                        <compilerArgument>-unchecked</compilerArgument>-->
+                        <compilerArgument>-unchecked</compilerArgument>
                         <compilerArgument>-deprecation</compilerArgument>
                         <compilerArgument>-proc:none</compilerArgument>
                     </configuration>

@@ -48,7 +48,7 @@
                         <compilerVersion>${javac.target}</compilerVersion>
                         <source>${javac.target}</source>
                         <target>${javac.target}</target>
-                        <compilerArgument>-unchecked</compilerArgument>
+<!--                        <compilerArgument>-unchecked</compilerArgument>-->
                         <compilerArgument>-deprecation</compilerArgument>
                         <compilerArgument>-proc:none</compilerArgument>
                     </configuration>
